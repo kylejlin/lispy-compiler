@@ -1,4 +1,4 @@
-import { tokenize } from './index'
+import tokenize from '../tokenize'
 
 const code = `
 (hi (all 8 "foo"))
