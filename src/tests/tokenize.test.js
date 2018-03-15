@@ -1,7 +1,7 @@
 import tokenize from '../tokenize'
 
 const code = `
-(hi (all 8 "foo"))
+(pickRandom "foo" 9 (sum 1 2 3))
 `
 
 const tokens = tokenize(code)

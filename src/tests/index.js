@@ -1,1 +1,2 @@
-import './tokenizer.test'
+import './tokenize.test'
+import './createAST.test'
