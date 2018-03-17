@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it generates the correct AST 1`] = `
+Object {
+  "body": Object {
+    "arguments": Array [
+      Object {
+        "type": "StringLiteral",
+        "value": "foo",
+      },
+      Object {
+        "type": "NumberLiteral",
+        "value": "9",
+      },
+      Object {
+        "arguments": Array [
+          Object {
+            "type": "NumberLiteral",
+            "value": "1",
+          },
+          Object {
+            "type": "NumberLiteral",
+            "value": "2",
+          },
+          Object {
+            "type": "NumberLiteral",
+            "value": "3",
+          },
+        ],
+        "callee": "sum",
+        "type": "CallExpression",
+      },
+    ],
+    "callee": "pickRandom",
+    "type": "CallExpression",
+  },
+  "type": "Program",
+}
+`;

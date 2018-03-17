@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it tokenizes correctly 1`] = `
+Array [
+  Object {
+    "type": "paren",
+    "value": "(",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "name",
+    "value": "pickRandom",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "string",
+    "value": "foo",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "number",
+    "value": "9",
+  },
+  Object {
+    "type": "paren",
+    "value": "(",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "name",
+    "value": "sum",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "number",
+    "value": "1",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "number",
+    "value": "2",
+  },
+  Object {
+    "isTerminated": true,
+    "type": "number",
+    "value": "3",
+  },
+  Object {
+    "type": "paren",
+    "value": ")",
+  },
+  Object {
+    "type": "paren",
+    "value": ")",
+  },
+]
+`;
