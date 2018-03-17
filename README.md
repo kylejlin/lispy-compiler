@@ -5,11 +5,12 @@ To learn about how compilers are built, I built my own. Though I know it's clich
 The only thing you can do is call functions. This is the syntax:
 ```js
 (funcName
-  'arg1. This is how you write a string'
+  "arg1. This is how you write a string"
   1234
-  (nestedFuncCall 'foo' 21 'bar')
+  (nestedFuncCall "foo" 21 "bar")
 )
 ```
+Strings can only use double quotes, not single quotes.
 Whitespace is only important as a token delimiter. All whitespace is treated equally ("whitespace" refers to anything that matches `/\s/`).
 
 ## Use
