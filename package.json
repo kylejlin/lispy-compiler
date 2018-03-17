@@ -20,5 +20,6 @@
     "jest": "^23.0.0-alpha.0",
     "nodemon": "^1.17.2",
     "regenerator-runtime": "^0.11.1"
-  }
+  },
+  "private": true
 }
